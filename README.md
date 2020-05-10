@@ -1,6 +1,8 @@
-# example_meme_generator
+![how to make meme generator app with flutter by theindianappguy](https://user-images.githubusercontent.com/55942632/81511313-0d5df580-9336-11ea-947c-b359c6233546.png)
 
-A new Flutter project.
+# Meme Generator App Made with Flutter
+
+Taught on Youtube, in Meme generator we capture screenshot of a widget and save the image to gallery or photos  .
 
 ## Getting Started
 
