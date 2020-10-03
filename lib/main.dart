@@ -229,8 +229,13 @@ class _HomePageState extends State<HomePage> {
     print(result);
   }
 
-  _askPermission() async {
-    Map<PermissionGroup, PermissionStatus> permissions =
-        await PermissionHandler().requestPermissions([PermissionGroup.photos]);
+ _askPermission() async {
+    Map<Permission, PermissionStatus> statuses = await [
+      Permission.photos,
+      Permission.storage
+    ].request();
+    print(statuses[Permission.photos]);
+    print(statuses[Permission.storage]);
   }
+  
 }
